@@ -1,0 +1,26 @@
+1:注释,//或/*    */或/**     */
+第一种单行注释,第二种可以双行.第三种/**
+ * Welcome类（我是文档注释）
+ * @author 高淇
+ * @version 1.0
+ */
+ 
+ 
+ 
+ 2:标识符.标识符是用来给变量、类、方法以及包进行命名的
+ 标识符必须以字母、下划线_、美元符号$开头。 
+自动类型转换指的是容量小的数据类型可以自动转换为容量大的数据类型。
+强制类型转换，又被称为造型，用于显式的转换一个数值的类型。在有可能丢失信息的情况下进行的转换是通过造型来完成的，但可能造成精度降低或溢出。
+格式为()int等等
+
+
+
+https://www.runoob.com/java/java-scanner-class.html
+ 简单的键盘输入和输出
+ ava Scanner 类
+java.util.Scanner 是 Java5 的新特征，我们可以通过 Scanner 类来获取用户的输入。
+
+下面是创建 Scanner 对象的基本语法：
+
+Scanner s = new Scanner(System.in);
+接下来我们演示一个最简单的数据输入，并通过 Scanner 类的 next() 与 nextLine() 方法获取输入的字符串，在读取前我们一般需要 使用 hasNext 与 hasNextLine 判断是否还有输入的数据：
